@@ -4,4 +4,15 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="automapper" Version="6.2.2" />
+    <PackageReference Include="microsoft.extensions.dependencyinjection.abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EP.CursoMvc.Application\EP.CursoMvc.Application.csproj" />
+    <ProjectReference Include="..\EP.CursoMvc.Domain\EP.CursoMvc.Domain.csproj" />
+    <ProjectReference Include="..\EP.CursoMvc.Infra.Data\EP.CursoMvc.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>

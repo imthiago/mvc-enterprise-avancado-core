@@ -17,15 +17,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{62297E7A-DC2D-4530-8AC1-49E5F1A7B0C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EP.CursoMvc.Domain", "src\EP.CursoMvc.Domain\EP.CursoMvc.Domain.csproj", "{2EF72EE0-38B5-453C-903C-1E246A98F6F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EP.CursoMvc.Domain", "src\EP.CursoMvc.Domain\EP.CursoMvc.Domain.csproj", "{2EF72EE0-38B5-453C-903C-1E246A98F6F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EP.CursoMvc.Infra.Data", "src\EP.CursoMvc.Infra.Data\EP.CursoMvc.Infra.Data.csproj", "{79FD5BD5-B9FA-4A85-B50F-A04B38EA843A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EP.CursoMvc.Infra.Data", "src\EP.CursoMvc.Infra.Data\EP.CursoMvc.Infra.Data.csproj", "{79FD5BD5-B9FA-4A85-B50F-A04B38EA843A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EP.CursoMvc.Infra.CrossCutting.IoC", "src\EP.CursoMvc.Infra.CrossCutting.IoC\EP.CursoMvc.Infra.CrossCutting.IoC.csproj", "{2D39F2C0-56B8-4DDE-B77A-25617805D4A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EP.CursoMvc.Infra.CrossCutting.IoC", "src\EP.CursoMvc.Infra.CrossCutting.IoC\EP.CursoMvc.Infra.CrossCutting.IoC.csproj", "{2D39F2C0-56B8-4DDE-B77A-25617805D4A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EP.CursoMvc.Infra.CrossCutting.MvcFilters", "src\EP.CursoMvc.Infra.CrossCutting.MvcFilters\EP.CursoMvc.Infra.CrossCutting.MvcFilters.csproj", "{6A22385F-D4DF-41FC-8DE1-0F8A238502CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EP.CursoMvc.Infra.CrossCutting.MvcFilters", "src\EP.CursoMvc.Infra.CrossCutting.MvcFilters\EP.CursoMvc.Infra.CrossCutting.MvcFilters.csproj", "{6A22385F-D4DF-41FC-8DE1-0F8A238502CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EP.CursoMvc.Application", "src\EP.CursoMvc.Application\EP.CursoMvc.Application.csproj", "{0C058BF7-3A93-4E04-9CAE-1D31F900C611}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EP.CursoMvc.Application", "src\EP.CursoMvc.Application\EP.CursoMvc.Application.csproj", "{0C058BF7-3A93-4E04-9CAE-1D31F900C611}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EP.CursoMvc.Services.REST.ClienteAPI", "src\EP.CursoMvc.Services.REST.ClienteAPI\EP.CursoMvc.Services.REST.ClienteAPI.csproj", "{71329BCF-B86D-4F69-A5A7-8A0F0D300FF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{0C058BF7-3A93-4E04-9CAE-1D31F900C611}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C058BF7-3A93-4E04-9CAE-1D31F900C611}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C058BF7-3A93-4E04-9CAE-1D31F900C611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71329BCF-B86D-4F69-A5A7-8A0F0D300FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71329BCF-B86D-4F69-A5A7-8A0F0D300FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71329BCF-B86D-4F69-A5A7-8A0F0D300FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71329BCF-B86D-4F69-A5A7-8A0F0D300FF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +71,7 @@ Global
 		{2D39F2C0-56B8-4DDE-B77A-25617805D4A4} = {62297E7A-DC2D-4530-8AC1-49E5F1A7B0C3}
 		{6A22385F-D4DF-41FC-8DE1-0F8A238502CB} = {62297E7A-DC2D-4530-8AC1-49E5F1A7B0C3}
 		{0C058BF7-3A93-4E04-9CAE-1D31F900C611} = {82BD1CD6-0C62-4365-84DC-5C34957E4A85}
+		{71329BCF-B86D-4F69-A5A7-8A0F0D300FF8} = {94BDAEEA-3077-4C02-97EE-D20137CA1259}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {28D6B1FD-880A-4387-8AAD-C8EF7342B107}
